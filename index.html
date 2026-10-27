@@ -2,152 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Andre Williams | IT Support & Help Desk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Andre Williams — IT support professional building hands-on cybersecurity skills through Wazuh SIEM and Active Directory labs.">
+    <title>Andre Williams | IT Support &amp; Cybersecurity</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <div class="container">
-
     <header>
-        <h1>Andre Williams</h1>
-        <p>Atlanta, GA</p>
-        <p>andretwilliams6@gmail.com | 920.288.7268</p>
+        <h1>Andre Tobias Williams</h1>
+        <p>920-288-7268 | andretwilliams6@gmail.com</p>
         <p>
-            <a href="https://linkedin.com/in/andre-williams311" target="_blank">LinkedIn</a> |
-            <a href="https://github.com/willand01" target="_blank">GitHub</a>
-            <button id="theme-toggle">Toggle Dark Mode</button>
+            <a href="https://linkedin.com/in/andre-williams311" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+            <a href="https://github.com/willand01" target="_blank" rel="noopener noreferrer">GitHub Profile</a> |
+            <a href="https://github.com/willand01/soc-detection-lab" target="_blank" rel="noopener noreferrer">SOC Detection Lab</a> |
+            <a href="https://github.com/willand01/Active-Directory-Helpdesk-Lab" target="_blank" rel="noopener noreferrer">AD Helpdesk Lab</a>
+            <button id="theme-toggle" type="button">Toggle Dark Mode</button>
         </p>
     </header>
 
     <section>
         <h2>Professional Summary</h2>
         <p>
-            IT support professional with hands-on experience in system troubleshooting,
-            service ticket management, remote end-user support, and malware remediation.
-            Background includes MSP exposure and high-volume incident handling with strong
-            documentation and adherence to SOPs. Seeking a Help Desk or IT
-            Support role with a growth mindset aimed at SOC L1.
+            IT support professional transitioning into cybersecurity, with help desk and repair experience and hands-on Windows, Linux, and endpoint troubleshooting. Building practical skills through Wazuh SIEM and Active Directory labs, including alert validation, event-log review, domain administration, and clear technical documentation. Effective in high-stakes incident coordination, accurate records, and calm decision-making.
         </p>
     </section>
 
     <section>
         <h2>Technical Skills</h2>
-
         <ul>
-            <li><strong>Operating Systems:</strong> Windows 10/11, macOS, Fedora Linux, Kali Linux (Kali Purple)</li>
-            <li><strong>Ticketing & Service Platforms:</strong> NinjaOne, IT Glue, Jira Service Management, ServiceNow, Freshdesk</li>
-            <li><strong>Systems & Support:</strong> End-user troubleshooting, remote desktop support, system maintenance and hardening</li>
-            <li><strong>Networking:</strong> TCP/IP, DNS, DHCP, Subnetting fundamentals, NAT, Port forwarding</li>
-            <li><strong>Network Analysis:</strong> Wireshark packet capture & traffic inspection, basic PCAP analysis</li>
-            <li><strong>Monitoring & SIEM:</strong> Wazuh (log collection & alert review), Graylog log aggregation, Splunk basics</li>
-            <li><strong>Security Operations:</strong> Alert triage & escalation, Windows Event Log analysis, phishing investigation</li>
-            <li><strong>Virtualization:</strong> VirtualBox, Docker</li>
-            <li><strong>Documentation:</strong> Executive-friendly incident report structure (what happened, impact, recommendations, next steps)</li>
+            <li><strong>Security Monitoring:</strong> Wazuh SIEM, alert validation, Windows Security events, Linux authentication logs, endpoint telemetry, custom detection rules, incident documentation</li>
+            <li><strong>Systems &amp; Support:</strong> Windows 11, Windows Server 2022, Active Directory, domain creation and join, user and group administration, DNS troubleshooting, Kali Purple/Linux, macOS, remote desktop support, OS installation, hardware/software troubleshooting, virtual network and virtual machine setup and troubleshooting</li>
+            <li><strong>Tools:</strong> VirtualBox, Microsoft Defender, Malwarebytes, Bitdefender, Wireshark, Autopsy, Hashcat, Macrium Reflect, RapidSpar, IT Glue</li>
+            <li><strong>Microsoft &amp; Workflow:</strong> Azure AD, Microsoft 365, ticket management, technical documentation, GitHub</li>
         </ul>
     </section>
 
     <section>
-        <h2>Technical Experience</h2>
-
-        <h3>Independent IT Support & Home Lab Operations</h3>
-
+        <h2>Technical Projects</h2>
+        <h3>Wazuh SOC Detection Lab | SIEM Alerting &amp; Windows Event Analysis</h3>
+        <p class="date">October 2026 | Personal Project</p>
         <ul>
-            <li>Diagnosed and resolved 20 most common IT Support/Helpdesk tickets.</li>
-            <li>Performed malware infection investigation, quarantine, remediation and system recovery.</li>
-            <li>Installed, configured, and optimized Fedora Workstation on a Windows 11 native machine.</li>
-            <li>Simulated ticket lifecycle management using NinjaOne, Jira Service Management, ServiceNow, and Freshdesk.</li>
-            <li>Documented incidents and resolutions following MSP-style documentation standards (IT Glue structure).</li>
-            <li>Built and maintained virtualized lab environments in Kali Purple using VirtualBox for scanning/exploiting other lab systems.</li>
-            <li>Utilized Metasploitable 2 for safe exploit practice in lab environments</li>
-            <li>Completed phishing simulation via GoPhish including AH (auth header) analysis using VirusTotal</li>
-            <li>Collected and analyzed logs from lab machines using Wazuh SIEM/XDR</li>
-            <li>Wireshark packet capture and analysis for hands-on inspection of traffic between lab hosts</li>
-            <li>Graylog log management to aggregate logs for analysis</li>
-
+            <li>Built a VirtualBox SOC lab connecting Wazuh SIEM, Kali Purple, and a Windows 11 endpoint to practice endpoint monitoring and security-event review.</li>
+            <li>Generated a controlled failed sudo login and validated the Wazuh alert “PAM: User login failed” (Rule ID 5503, Level 5); checked agent connectivity and dashboard results.</li>
+            <li>Enabled and validated Windows Filtering Platform event collection (Event ID 5152), tested a blocked Kali-to-Windows TCP probe on port 4444, and created and validated custom Wazuh rule 100510 for the event.</li>
+            <li>Documented test procedures, findings, and screenshot evidence in the <a href="https://github.com/willand01/soc-detection-lab" target="_blank" rel="noopener noreferrer">SOC Detection Lab repository</a>.</li>
         </ul>
+
+        <h3>Active Directory Helpdesk Lab | Windows Domain &amp; Tier 1 Support</h3>
+        <p class="date">October 2026 | Personal Project</p>
+        <ul>
+            <li>Configured a Windows Server 2022 domain controller in VirtualBox for the adlab.local domain; validated domain-controller health and DNS service records.</li>
+            <li>Joined a Windows 11 client to the domain, created a test user and security group, managed group membership, and verified domain sign-in.</li>
+            <li>Troubleshot a domain sign-in/access issue and documented the environment, completed setup, and planned Tier 1 scenarios for account recovery, permissions, and DNS/connectivity checks.</li>
+        </ul>
+        <p>Repository: <a href="https://github.com/willand01/Active-Directory-Helpdesk-Lab" target="_blank" rel="noopener noreferrer">Active Directory Helpdesk Lab on GitHub</a></p>
     </section>
 
     <section>
         <h2>Professional Experience</h2>
-
         <h3>Lead Emergency Medical Dispatcher</h3>
-        <p class="date">Atlanta, GA | Grady Health System EMS | September 2024-Present</p>
-
+        <p class="date">Grady EMS Communications Center | September 2024–2026</p>
         <ul>
-            <li>Managed high-volume incident calls and prioritized time-sensitive situations.</li>
-            <li>Utilized structured protocols for accurate incident documentation.</li>
-            <li>Maintained composure and clear communication in high-pressure environments.</li>
-            <li>Coordinated communication between field responders and support personnel.</li>
-        </ul>
-          <h3>Quantum Technologies — MSP Help Desk Analyst / Repair Technician</h3>
-        <p class="date">Oct 2022 – June 2023 | Sturgeon Bay, WI</p>
-        <ul>
-            <li>Completed incident and ticket documentation using IT Glue.</li>
-            <li>Conducted malware detection, threat analysis, and system remediation on infected machines.</li>
-            <li>Provided remote desktop support for client troubleshooting using TeamViewer and RDP.</li>
-            <li>Built and deployed custom client workstations and ensured system stability.</li>
-            <li>Performed data recovery and MSP support tasks in client environments.</li>
-        
+            <li>Coordinated high-stakes emergency incidents, applying established protocols and making time-sensitive decisions under pressure.</li>
+            <li>Maintained accurate incident records and coordinated communications across EMS, fire rescue, and law enforcement.</li>
+            <li>Supported team operations and reinforced consistent procedures and documentation quality.</li>
         </ul>
 
-        <h3>Bergstrom Subaru of Green Bay — Automotive Sales Professional</h3>
-        <p class="date">Aug 2023 – June 2024 | Green Bay, WI</p>
+        <h3>Help Desk Analyst / Repair Technician</h3>
+        <p class="date">Quantum Technologies | October 2022–June 2023</p>
         <ul>
-            <li>Utilized CRM systems for customer lifecycle management.</li>
-            <li>Process-driven automotive and ancillary product sales.</li>
-            <li>Managed sensitive customer data with confidentiality and accuracy.</li>
-        
+            <li>Documented support incidents and ticket activity using IT Glue; provided remote desktop support for end users.</li>
+            <li>Analyzed and removed malware from client systems and troubleshot software, operating-system, and hardware issues.</li>
+            <li>Built, installed, and tested custom workstations; supported data recovery and disk-imaging workflows.</li>
+        </ul>
+
+        <h3>Automotive Sales Professional</h3>
+        <p class="date">Bergstrom Subaru of Green Bay | August 2023–June 2024</p>
+        <ul>
+            <li>Used CRM and automotive evaluation tools to maintain accurate customer and transaction records while following industry requirements.</li>
         </ul>
     </section>
-        <section>
-            <h2>Education & Certifications</h2>
-                <h3>Merritt College Cybersecurity Bootcamp</h3>
-                    <h4>Oakland, CA</h4>
-                    <li>Cryptology & Hashing Algorithms</li>
-                    <li>Defense-in-Depth Security Model</li>
-                    <li>Zero Trust Model</li>
-                    <li>OSI / TCP/IP Models</li>
-                    <li>OSINT</li>
-                    <li>OWASP Top 10</li>
-                    <li>MITTRE ATT&CK framework</li>
-                    <li>Common Vulnerabilities & Exploits database</li>
-            
-            <h3>CompTIA Security+ - <strong>in progress</strong></h3>
-            <h3>Microsoft AZ-900 - <strong>in progress</strong></h3>
-        </section>
 
+    <section>
+        <h2>Education &amp; Professional Development</h2>
+        <h3>Merritt College — Cybersecurity Program</h3>
+        <p>2022–2023 | Coursework in network security, threat detection, risk management, Linux administration, digital forensics, cryptography, incident response, and documentation.</p>
+        <p><strong>Professional development:</strong> CompTIA Security+ and Microsoft SC-900 study in progress.</p>
+    </section>
 </div>
 <script>
     const toggleButton = document.getElementById("theme-toggle");
-
     toggleButton.addEventListener("click", () => {
         document.body.classList.toggle("dark-mode");
-
-        if (document.body.classList.contains("dark-mode")) {
-            localStorage.setItem("theme", "dark");
-        } else {
-            localStorage.setItem("theme", "light");
-        }
+        localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
     });
-
-    // Load saved theme preference
     if (localStorage.getItem("theme") === "dark") {
         document.body.classList.add("dark-mode");
     }
 </script>
-
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
